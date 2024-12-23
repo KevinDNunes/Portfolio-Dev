@@ -1,0 +1,80 @@
+main {
+  width: 100%;
+  height: 900px;
+
+  padding: 72px 120px;
+
+  background-color: var(--gray-100);
+}
+
+main h5 {
+  font-family: "Inconsolata", serif;
+  font-size: 20px;
+  line-height: 120%;
+  
+  color: var(--red);
+}
+
+main h3 {
+  font-family: "Asap", serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  color: var(--gray-600);
+}
+
+.card{
+  min-width: 310px;
+  max-width: 320px;
+  height: 275px;
+
+  background-color: var(--gray-300);
+
+  padding: 10px 10px 0px;
+  border-radius: 12px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 56px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 330px 330px 330px;
+  gap: 24px 12px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-container img {
+  width: 300px;
+  height: 150px;
+
+  border-radius: 8px;
+}
+
+.grid-container h4 {
+  font-family: "Asap", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  color: var(--gray-600);
+
+  margin-top: 10px;
+}
+
+.grid-container p {
+  font-family: "Maven Pro", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: var(--gray-500);
+
+  margin-top: 6px;
+}
