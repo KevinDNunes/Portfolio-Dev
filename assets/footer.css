@@ -18,6 +18,13 @@ footer {
   background-image: url(/assets/images/Background_Contacts.png);
 }
 
+.contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .contato h5 {
   font-family: "Inconsolata", serif;
   font-weight: 400;
@@ -51,34 +58,48 @@ footer {
 .box {
   width: 400px;
   height: 320px;
-  border: 1px solid red;
+
+  display: flex;
+  flex-direction: column;
 }
 
-.acesso {
+.button {
   width: 400px;
   height: 68px;
+
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 24px 24px 24px 24px;
+  
+
   background-color: var(--gray-300);
   border-radius: 8px;
 
-  align-items: center;
-  justify-content: center;
-
 
   margin-bottom: 16px;
-  border: 1px solid green;
 }
 
-.acesso p {
+.button a {
   font-family: "Maven Pro", serif;
   font-weight: 400;
   font-size: 16px;
   color: var(--gray-500);
+
+  text-decoration: none;
 }
 
-.acesso img {
-  line-height: 140px;
+.button img {
+  width: 24px;
+  height: 24px;
+}
 
+.seta img {
   width: 28px;
   height: 28px;
 }
+
+
+
